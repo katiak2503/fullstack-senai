@@ -43,7 +43,7 @@ nav a {
 
 nav a:hover {
     color: #000000;
-    background-color: #06C8E2;
+    background-color: #1bb2c6;
     transition: background-color 300ms ease-in-out;
 }
 
