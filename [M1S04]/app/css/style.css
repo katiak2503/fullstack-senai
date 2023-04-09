@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(12, 172, 172);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border: 2px solid #95a5a5;
+    box-shadow: 2px 2px 5px rgba(104, 102, 102, 0.3);
+    margin: 50px auto;
+    max-width: 800px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+
+.content {
+    flex: 1.5;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+
+}
+p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+    margin: 40px auto;
+    width: 30%;
+}
+
+label {
+	font-size: 1.2rem;
+	margin-bottom: 0.5rem;
+}
+
+table{
+    text-align: center;
+    color:#fff;
+    text-shadow: 1px 1px #030303;
+    font-size: 1.5rem;
+    border-spacing: 15px;
+    margin: 0 auto;
+}
+
+.filtro{
+    text-align: center;
+    color:#fff;
+    text-shadow: 1px 1px #030303;
+    font-size: 1.5rem;
+    border-spacing: 15px;
+    margin: 0 auto;
+}
+.filtro input{
+    margin: 0 auto;
+    border: rgb(69, 74, 72);
+    padding: 0.2rem;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    color: #100f0f;
+    cursor: pointer;
+    text-align: center;
+}
+
+.filtro button{
+    margin: 0 auto;
+    border: rgb(69, 74, 72);
+    background-color: aqua;
+    padding: 0.2rem;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    color: #100f0f;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .content,
+}
