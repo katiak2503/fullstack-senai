@@ -47,6 +47,10 @@ ul {
     margin-bottom: 1rem;
 }
 
+li { 
+    list-style-type: none;
+}
+
 @media only screen and (max-width: 768px) {
     .content,
 }
