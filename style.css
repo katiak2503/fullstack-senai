@@ -1,3 +1,12 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(12, 172, 172);
@@ -14,7 +23,6 @@ body {
     border-radius: 20px;
     align-items: center;
 }
-
 
 .content {
     flex: 1.5;
